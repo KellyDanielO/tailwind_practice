@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impacto</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <main class="bg-milkColor w-screen overflow-x-hidden">
+      <div class="container mx-auto overflow-x-hidden">
+        <!-- Navigation Bar -->
+        <nav
+          class="py-4 px-2 flex justify-between items-center flex-row lg:px-0"
+        >
+          <h2 class="text-blue-950 text-2xl font-bold">
+            impact<span class="text-cyan-300">o</span>
+          </h2>
+          <!-- Ul desktop -->
+          <ul class="hidden lg:flex gap-6">
+            <li><a href="#" class="text-cyan-500">Home</a></li>
+            <li><a href="#" class="hover:text-cyan-500">Services</a></li>
+            <li><a href="#" class="hover:text-cyan-500">About Us</a></li>
+            <li><a href="#" class="hover:text-cyan-500">Blog</a></li>
+            <li><a href="#" class="hover:text-cyan-500">Contact Us</a></li>
+          </ul>
+
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger lg:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+          <!-- <ion-icon name="menu-outline" class="lg:hidden text-3xl"></ion-icon> -->
+        </nav>
+
+        <!-- Mobile desktop -->
+        <ul
+          class="hidden hm_menu md mx-auto gap-6 flex-col w-10/12 shadow-lg p-5 lg:hidden"
+        >
+          <li><a href="#" class="text-cyan-500">Home</a></li>
+          <li><a href="#" class="hover:text-cyan-500">Services</a></li>
+          <li><a href="#" class="hover:text-cyan-500">About Us</a></li>
+          <li><a href="#" class="hover:text-cyan-500">Blog</a></li>
+          <li><a href="#" class="hover:text-cyan-500">Contact Us</a></li>
+        </ul>
+        <!-- Hero Section -->
+        <section
+          class="flex justify-between flex-col-reverse items-center h-full w-full mt-3 pt-32 lg:mt-0 lg:flex-row"
+        >
+          <div
+            class="flex justify-center pt-10 items-start px-5 flex-col lg:px-0 lg:pt-0 lg:block"
+          >
+            <h1 class="text-4xl lg:text-6xl font-sans font-bold text-blue-950">
+              Great Marketing
+            </h1>
+            <h1 class="text-4xl lg:text-6xl font-sans font-bold text-blue-950">
+              Make The Customer
+            </h1>
+            <h1 class="text-4xl lg:text-6xl font-sans font-bold text-cyan-300 mb-3">
+              Feel Smart
+            </h1>
+            <p class="capitalize text-[1rem] max-w-xs">
+              Focused On growing brands online want to see our work
+              <span class="text-cyan-500 font-bold">Action?</span>
+            </p>
+            <div
+              class="w-[4.5em] h-[4.5em] bg-blue-950 rounded-full flex justify-center items-center mt-5"
+            >
+              <ion-icon
+                name="play-outline"
+                class="text-5xl text-cyan-500"
+              ></ion-icon>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-[90%] h-[30em] lg:w-[30em] lg:h-[30em] border-[1em] border-cyan-400 rounded-full overflow-hidden"
+            >
+              <img
+                src="img/agent.jpg"
+                class="w-full h-full object-cover"
+                alt=""
+              />45
+            </div>
+          </div>
+        </section>
+        <!-- Level Up section -->
+        <section
+          class="flex flex-col lg:flex-row lg:justify-between lg:items-center lg:gap-10 mt-10"
+        >
+          <div
+            class="w-[100%] flex flex-row gap-5 flex-wrap items-center justify-center lg:w-[35%]"
+          >
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <ion-icon
+                name="paper-plane-outline"
+                class="text-5xl mb-2"
+              ></ion-icon>
+              <p class="text-sm">Branding & Digital Strategies</p>
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <ion-icon
+                name="code-working-outline"
+                class="text-5xl mb-2"
+              ></ion-icon>
+              <p class="text-sm">Web & Mobile & Design & Develop</p>
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <ion-icon
+                name="thumbs-up-outline"
+                class="text-5xl mb-2"
+              ></ion-icon>
+              <p class="text-sm">Result Driven Digital Marketing</p>
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <ion-icon name="logo-microsoft" class="text-5xl mb-2"></ion-icon>
+              <p class="text-sm">Software Development</p>
+            </div>
+          </div>
+          <div class="p-6 lg:w-[35%] lg:p-0">
+            <h1 class="text-3xl font-sans font-bold text-blue-950 lg:text-5xl">
+              Let's Level Up Your Business With
+            </h1>
+            <h1
+              class="text-3xl font-sans font-bold text-cyan-300 mb-3 lg:text-5xl"
+            >
+              Digital Media
+            </h1>
+            <p class="capitalize my-5 max-w-xs text-[1em]">
+              Integrating Brand Strategy with digital initiatives to improve
+              customer experience online & offline
+            </p>
+            <button
+              class="outline-none bg-blue-950 text-cyan-500 py-2 px-7 rounded-full font-bold"
+            >
+              Learn More
+            </button>
+          </div>
+        </section>
+        <!-- Creator superior section -->
+        <section
+          class="flex flex-col lg:flex-row lg:justify-center lg:items-center lg:gap-10 mt-10"
+        >
+          <div class="p-6 lg:w-[35%] lg:p-0">
+            <h3 class="text-xl font-sans text-blue-950">
+              We Patner With Brands To
+            </h3>
+            <h1 class="text-3xl font-sans font-bold text-blue-950 lg:text-5xl">
+              Creator Superior
+            </h1>
+            <h1
+              class="text-3xl font-sans font-bold text-cyan-300 mb-3 lg:text-5xl"
+            >
+              Digital Experience
+            </h1>
+            <p class="capitalize my-5 text-sm max-w-xs">
+              From start-ups to fortune 500, we patner with brands of all sizes.
+              the more challenging the prospect, the more excited we are.
+            </p>
+            <button
+              class="outline-none bg-blue-950 text-cyan-500 py-2 px-7 rounded-full font-bold"
+            >
+              Get A Quote
+            </button>
+          </div>
+          <div
+            class="w-[100%] flex flex-row gap-5 flex-wrap items-center justify-center lg:w-[50%]"
+          >
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <img src="img/song.png" alt="" />
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <img src="img/ibm.png" alt="" />
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <img src="img/google.png" alt="" />
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <img src="img/pandg.png" alt="" />
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <img src="img/yaho.png" alt="" />
+            </div>
+            <div
+              class="w-[40vw] h-[40vw] md:w-[20vw] md:h-[20vw] flex justify-center flex-col px-6 rounded-xl shadow-xl lg:w-[200px] lg:h-[200px]"
+            >
+              <img src="img/xerox.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <!-- Take A Good Look Section -->
+        <section
+          class="flex flex-col lg:flex-row lg:justify-between items-center lg:gap-10 mt-10"
+        >
+          <div class="w-[90%] lg:w-[50%] lg:p-4">
+            <img src="img/case_studies.jpg" alt="" />
+          </div>
+          <div class="p-6 lg:w-[35%] lg:p-0">
+            <h1 class="text-3xl font-sans font-bold text-blue-950 lg:text-5xl">
+              Take A Look <br />
+              At The Featured
+            </h1>
+            <h1
+              class="text-3xl font-sans font-bold text-cyan-300 mb-3 lg:text-5xl"
+            >
+              Case Studies
+            </h1>
+            <p class="capitalize my-5 max-w-xs text-[1em]">
+              From concept to market: we Engineer projects for superior
+              performance
+            </p>
+            <button
+              class="outline-none bg-blue-950 text-cyan-500 py-2 px-7 rounded-full font-bold"
+            >
+              Case Study
+            </button>
+          </div>
+        </section>
+      </div>
+      <footer class="bg-blue-950 flex flex-col items-center justify-center">
+        <div class="w-[80%] pt-10 flex flex-col gap-5 lg:flex-row lg:justify-around">
+          <div>
+            <h3 class="text-2xl text-milkColor font-bold mb-5">Services</h3>
+            <ul>
+              <li class="text-gray-400 text-sm">Branding</li>
+              <li class="text-gray-400 text-sm">Digital Strategy</li>
+              <li class="text-gray-400 text-sm">Web & App Development</li>
+              <li class="text-gray-400 text-sm">Social Media Markerting</li>
+              <li class="text-gray-400 text-sm">Software Development</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-2xl text-milkColor font-bold mb-5">Quick Links</h3>
+            <ul>
+              <li class="text-gray-400 text-sm">Case Studies</li>
+              <li class="text-gray-400 text-sm">About Us</li>
+              <li class="text-gray-400 text-sm">Contact</li>
+              <li class="text-gray-400 text-sm">Terms & Conditions</li>
+              <li class="text-gray-400 text-sm">Privacy Policy</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-2xl text-milkColor font-bold mb-5">Solutuions</h3>
+            <ul>
+              <li class="text-gray-400 text-sm">Manage Rack and space</li>
+              <li class="text-gray-400 text-sm">
+                Shared Facilities Management (SFM)
+              </li>
+              <li class="text-gray-400 text-sm">
+                Dedicated Facilities Management (DFM)
+              </li>
+              <li class="text-gray-400 text-sm">Consolidated Telco Biling</li>
+              <li class="text-gray-400 text-sm">Manage ICT</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-white text-2xl font-bold">
+              impact<span class="text-cyan-300">o</span>
+            </h3>
+            <ul>
+              <li class="text-gray-400 text-sm">
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li class="text-gray-400 text-sm">
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li class="text-gray-400 text-sm">
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li class="text-gray-400 text-sm">
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li class="text-gray-400 text-sm">
+                Lorem ipsum dolor sit amet.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-gray-300 text-xl pys-5">&copy;Imapacto. All Right Reserved</p>
+      </footer>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
