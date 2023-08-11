@@ -54,6 +54,6 @@
   .hm_menu.active{
     display: flex !important;
   }
-  *{
+  /* *{
     overflow-x: hidden;
-  }
+  } */
